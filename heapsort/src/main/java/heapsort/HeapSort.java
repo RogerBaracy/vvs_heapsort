@@ -5,7 +5,7 @@ public class HeapSort {
     private static int[] vetor;    
     
     
-    public void heapsort(int[] array) {
+    public void sort(int[] array) {
         vetor = array;          // vetor global recebe o vetor passado como parâmetro
         tam = vetor.length - 1;     // o tamanho deste vetor é armazenado em 'tam', que também é global
         

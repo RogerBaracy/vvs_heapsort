@@ -12,7 +12,7 @@ public class App
         HeapSort heapsort = new HeapSort();
         
         // Chama a função de ordenação
-        heapsort.heapsort(vetorDesordenado); 
+        heapsort.sort(vetorDesordenado); 
         heapsort.show(vetorDesordenado);
     }
 }
